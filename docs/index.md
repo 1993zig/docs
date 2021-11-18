@@ -11,7 +11,7 @@
 - :fontawesome-brands-facebook:{ .facebook } – [@niklasgoetzen](https://www.facebook.com/niklasgoetzen)
 - :fontawesome-brands-instagram:{ .instagram } – [@niklasgoetzen](https://www.instagram.com/niklasgoetzen)
 
-# Public
+### Public
 
 - :fontawesome-brands-instagram:{ .instagram } – [@acctiofotograf](https://www.instagram.com/acciofotograf)
 - :fontawesome-brands-twitch:{ .twitch } – [@c0mptuern1k](https://www.twitch.tv/c0mputern1k)
