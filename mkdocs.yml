@@ -78,21 +78,21 @@ nav:
     - links-credits.md
 
     - Server:
-        - server/setup
-        - server/docker
-        - server/maintenance
+        - server/setup.md
+        - server/docker.md
+        - server/maintenance.md
 
     - Bruni:
-        - bruni/development
-        - bruni/commands
+        - bruni/development.md
+        - bruni/commands.md
 
     - GetOnMyBot:
-        - getonmybot/development
-        - getonmybot/commands
+        - getonmybot/development.md
+        - getonmybot/commands.md
 
     - Teamspeak:
-        - teamspeak/setup
-        - teamspeak/maintenance
+        - teamspeak/setup.md
+        - teamspeak/maintenance.md
 
 extra_css:
     - stylesheets/lightmode.css
