@@ -1,0 +1,81 @@
+site_name: DocNiks
+site_description: A guide for Nik
+site_url: https://docs.gtzn.de
+
+theme:
+
+    name: material
+#    logo: assets/logo.png
+#    favicon: assets/logo.png
+
+    custom_dir: docs/overrides
+
+    features:
+        - navigation.sections
+        - navigation.instant
+        - navigation.top
+        - navigation.tracking
+        - toc.integrate
+        - content.tabs.link
+
+    language: en
+
+    palette:
+        - media: "(prefers-color-scheme: light)"
+          scheme: light
+          toggle:
+            icon: material/weather-sunny
+            name: Light Mode
+        - media: "(prefers-color-scheme: dark)"
+          scheme: dark
+          toggle:
+            icon: material/weather-night
+            name: Dark Mode
+
+repo_name: Repository
+repo_url: https://github.com/c0mputern1k/docs/
+edit_uri: ""
+
+plugins:
+
+    - search
+    - macros
+
+    - git-revision-date-localized:
+        type: date
+
+extra: {
+    guiderepo: https://github.com/c0mputern1k/docs/
+}
+
+markdown_extensions:
+
+    - tables
+    - admonition
+    - attr_list
+
+    - pymdownx.highlight
+    - pymdownx.inlinehilite
+    - pymdownx.superfences
+    - pymdownx.tabbed:
+        alternate_style: true
+    - pymdownx.snippets
+    - pymdownx.details
+
+    - markdown_link_attr_modifier:
+        new_tab: external_only
+
+    - pymdownx.emoji:
+        emoji_index: !!python/name:materialx.emoji.twemoji
+        emoji_generator: !!python/name:materialx.emoji.to_svg
+
+    - toc:
+        permalink: True
+
+nav:
+
+    - index.md
+
+extra_css:
+    - stylesheets/lightmode.css
+    - stylesheets/darkmode.css
