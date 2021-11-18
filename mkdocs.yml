@@ -90,6 +90,11 @@ nav:
         - getonmybot/development.md
         - getonmybot/commands.md
 
+    - Cogs:
+        - cogs/infos.md
+        - cogs/modtools.md
+        - cogs/wordfilter.md
+
     - Teamspeak:
         - teamspeak/setup.md
         - teamspeak/maintenance.md
