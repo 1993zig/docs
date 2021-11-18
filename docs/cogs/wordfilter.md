@@ -10,7 +10,7 @@ Toggeling filter to send dms.
 [p]wordfilterset dms <true/false>
 ```
 
-# Commands
+## Commands
 
 Send a list of filtered words.
 ```shell
