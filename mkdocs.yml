@@ -75,6 +75,24 @@ markdown_extensions:
 nav:
 
     - index.md
+    - links-credits.md
+
+    - Server:
+        - server/setup
+        - server/docker
+        - server/maintenance
+
+    - Bruni:
+        - bruni/development
+        - bruni/commands
+
+    - GetOnMyBot:
+        - getonmybot/development
+        - getonmybot/commands
+
+    - Teamspeak:
+        - teamspeak/setup
+        - teamspeak/maintenance
 
 extra_css:
     - stylesheets/lightmode.css
