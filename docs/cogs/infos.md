@@ -38,4 +38,4 @@ You can contact me on my [Discord server](https://discord.gg/cQwZkKftff)!
 
 ## Licence
 
-This repository is under the [General Public Licence 3.0](https://www.gnu.org/licenses/gpl-3.0.en.html). For a quick review of what's allowed or not, check [this](https://github.com/retke/Laggrons-Dumb-Cogs/blob/master/LICENSE), full licence can be found below.
+This repository is under the [General Public Licence 3.0](https://www.gnu.org/licenses/gpl-3.0.en.html).
