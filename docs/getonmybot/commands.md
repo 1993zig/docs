@@ -11,7 +11,7 @@
 
 `/ticket maintain <true/false>` - Toggle modmail on/off.    
 `/ticket close` - Close a ticket.   
-`/ticket ignore <uid>` - Exclude user from support. 
+`/ticket ignore <uid>` - Exclude user from support.     
 `/ticket unignore <uid>` - Admit user from support again.   
 
 ---
@@ -45,10 +45,10 @@
 
 ### Information
 
-`/app` - Information about the mobile game. 
-`/podcast` - Information about the podcast. 
+`/app` - Information about the mobile game.     
+`/podcast` - Information about the podcast.     
 
-`/about` - Information about the developer. 
+`/about` - Information about the developer.     
 `/serverinfo` - Information about the server.   
 `/userinfo <uid>` - Information about a user.   
-`/botinfo` - Information about the bot. 
+`/botinfo` - Information about the bot.     
