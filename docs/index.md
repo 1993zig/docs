@@ -13,5 +13,6 @@
 
 ### Public
 
-- :fontawesome-brands-instagram:{ .instagram } – [@acctiofotograf](https://www.instagram.com/acciofotograf)
+- :fontawesome-brands-instagram:{ .instagram } – [@acciofotograf](https://www.instagram.com/acciofotograf)
 - :fontawesome-brands-twitch:{ .twitch } – [@c0mptuern1k](https://www.twitch.tv/c0mputern1k)
+- :fontawesome-brands-github:{ .github } – [@c0mptuern1k](https://github.com/c0mputern1k)

@@ -77,27 +77,32 @@ nav:
     - index.md
     - links-credits.md
 
-    - Server:
-        - server/setup.md
-        - server/docker.md
-        - server/maintenance.md
-
     - Bruni:
         - bruni/development.md
         - bruni/commands.md
-
-    - GetOnMyBot:
-        - getonmybot/development.md
-        - getonmybot/commands.md
 
     - Cogs:
         - cogs/infos.md
         - cogs/modtools.md
         - cogs/wordfilter.md
 
+    - GetOnMyBot:
+        - getonmybot/development.md
+        - getonmybot/commands.md
+
+    - Linux:
+        - linux/server.md
+        - linux/commands.md
+        - linux/docker.md
+        - linux/maintenance.md
+
     - Teamspeak:
         - teamspeak/setup.md
         - teamspeak/maintenance.md
+
+    - Windows:
+        - windows/commands.md
+        - windows/tool.md
 
 extra_css:
     - stylesheets/lightmode.css
