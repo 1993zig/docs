@@ -24,17 +24,17 @@
 
 ## Utils
 
-`/about`      - Get info about Dobby.              
-`/invitelink` - Create invite for current channel. 
-`/botinfo`    - Get info about the bot.            
-`/serverinfo` - Get info about the server.         
+`/about`      - Get info about Dobby.               
+`/invitelink` - Create invite for current channel.  
+`/botinfo`    - Get info about the bot.             
+`/serverinfo` - Get info about the server.          
 
 
 ## Leveling
 
-`/levels` - Command group for leveling system. 
-`/rank`   - Show your rank.                    
-`/board`  - Show the server leaderboard.       
+`/levels` - Command group for leveling system.  
+`/rank`   - Show your rank.                     
+`/board`  - Show the server leaderboard.        
 
 ## Hogwarts
 
