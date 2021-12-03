@@ -83,6 +83,7 @@ nav:
   - Dobby:
       - dobby/setup.md
       - dobby/commands.md
+      - dobby/privacy.md
 
   - GetOnMyBot:
       - getonmybot/development.md

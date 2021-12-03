@@ -43,3 +43,7 @@
 ## Tickets
 
 `/ticket` - Group of commands to mange the ticket system. 
+
+## Twitcher
+
+`/twitch` - Group of commands to mange twitch notifications. 
