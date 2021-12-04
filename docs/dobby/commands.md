@@ -16,6 +16,7 @@
 `/kick`     - Kick a user from the server.                  
 `/unban`    - Unban a user from the server.                 
 `/checkban` - Check if a user is banned.                    
+`/raidban`  - Ban a server raid.                            
 `/warn`     - Warn a user via DM (if possible).             
 `/purge`    - Delet a certain number of messages.           
 `/nick`     - Rename a user or reest the nickname.          
@@ -47,3 +48,7 @@
 ## Twitcher
 
 `/twitch` - Group of commands to mange twitch notifications. 
+
+## Namefilter
+
+`/namefilter` -Group of commands to manage displaynames. 
