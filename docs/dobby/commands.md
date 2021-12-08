@@ -51,4 +51,10 @@
 
 ## Namefilter
 
-`/namefilter` -Group of commands to manage displaynames. 
+`/namefilter` - Group of commands to manage displaynames. 
+
+### Customs
+`/custom` - Group of commands to manage custom channels.            
+`/private` - Switch between private and public for your channel.    
+`/invite` - Invite a user to your channel.                          
+`/remove` - Remove a user to your channel.                          
