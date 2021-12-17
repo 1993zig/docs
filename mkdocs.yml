@@ -101,7 +101,7 @@ nav:
 
   - Windows:
       - windows/commands.md
-      - windows/tool.md
+      - windows/tools.md
 
 extra_css:
   - stylesheets/lightmode.css
