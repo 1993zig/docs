@@ -11,17 +11,18 @@
 
 ### Moderation
 
-`/ban`      - Ban a user from the server.                   
-`/hackban`  - Ban a user id from the server.                
-`/kick`     - Kick a user from the server.                  
-`/unban`    - Unban a user from the server.                 
-`/checkban` - Check if a user is banned.                    
-`/raidban`  - Ban a server raid.                            
-`/warn`     - Warn a user via DM (if possible).             
-`/purge`    - Delet a certain number of messages.           
-`/nick`     - Rename a user or reest the nickname.          
-`/userinfo` - Get info about a user.                        
-`/announce` - Create an announcement in a specific channel. 
+`/ban`      - Ban a user from the server.                       
+`/hackban`  - Ban a user id from the server.                    
+`/kick`     - Kick a user from the server.                      
+`/unban`    - Unban a user from the server.                     
+`/checkban` - Check if a user is banned.                        
+`/raidban`  - Ban a server raid.                                
+`/warn`     - Warn a user via DM (if possible).                 
+`/purge`    - Delet a certain number of messages.               
+`/say`      - The bot will say anything you want.               
+`/embed`    - The bot will say anything you want in a embed.    
+`/announce` - Create an announcement in a specific channel.     
+`/userinfo` - Get info about a user.                            
 
 ## Utils
 
@@ -39,7 +40,9 @@
 
 ## Hogwarts
 
-`/house` - Sends you to the house you belong to. 
+`/house`  - Sends you to the house you belong to.   
+`/school` - Overview of Hogwarts.                   
+`/houses` - Get information about all houses.       
 
 ## Tickets
 
@@ -54,7 +57,9 @@
 `/namefilter` - Group of commands to manage displaynames. 
 
 ### Customs
-`/custom` - Group of commands to manage custom channels.            
+`/custom`  - Group of commands to manage custom channels.           
 `/private` - Switch between private and public for your channel.    
-`/invite` - Invite a user to your channel.                          
-`/remove` - Remove a user to your channel.                          
+`/invite`  - Invite a user to your channel.                         
+`/remove`  - Remove a user to your channel.                         
+`/size`    - Change the size of your channel.                       
+`/name`    - Change the name of your channel.                       
