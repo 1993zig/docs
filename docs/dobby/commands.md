@@ -23,6 +23,8 @@
 `/embed`    - The bot will say anything you want in a embed.    
 `/announce` - Create an announcement in a specific channel.     
 `/userinfo` - Get info about a user.                            
+`/modlog`   - See the modlog channel.                           
+`/joinlog`  - See the joinlog channel.                          
 
 ## Utils
 
@@ -63,3 +65,11 @@
 `/remove`  - Remove a user to your channel.                         
 `/size`    - Change the size of your channel.                       
 `/name`    - Change the name of your channel.                       
+
+### Reaction Roles
+`/reaction`  - Group of commands to manage reaction roles.  
+### Feedback
+`/feedback`  - Group of commands to manage feedback.    
+
+### Wordfilter
+`/namefilter`  - Group of commands to manage messages.  
