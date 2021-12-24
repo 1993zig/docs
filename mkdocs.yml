@@ -71,15 +71,6 @@ nav:
   - index.md
   - links-credits.md
 
-  - Bruni:
-      - bruni/development.md
-      - bruni/commands.md
-
-  - Cogs:
-      - cogs/infos.md
-      - cogs/modtools.md
-      - cogs/wordfilter.md
-
   - Dobby:
       - dobby/setup.md
       - dobby/commands.md
