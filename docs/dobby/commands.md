@@ -11,9 +11,7 @@
 
 ### Moderation
 
-`/ban`      - Ban a user from the server.                       
 `/hackban`  - Ban a user id from the server.                    
-`/kick`     - Kick a user from the server.                      
 `/unban`    - Unban a user from the server.                     
 `/checkban` - Check if a user is banned.                        
 `/raidban`  - Ban a server raid.                                
