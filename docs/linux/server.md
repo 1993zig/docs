@@ -1,4 +1,4 @@
 # Server
 
-https://github.com/c0mputern1k/configs
-https://github.com/c0mputern1k/scripts
+https://github.com/nigl93/configs
+https://github.com/nigl93/scripts

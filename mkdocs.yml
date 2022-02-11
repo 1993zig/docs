@@ -32,7 +32,7 @@ theme:
         name: Dark Mode
 
 repo_name: Repository
-repo_url: https://github.com/c0mputern1k/docs/
+repo_url: https://github.com/nigl93/docs/
 edit_uri: ""
 
 plugins:
@@ -42,7 +42,7 @@ plugins:
   - git-revision-date-localized:
       type: date
 
-extra: { guiderepo: https://github.com/c0mputern1k/docs/ }
+extra: { guiderepo: https://github.com/nigl93/docs/ }
 
 markdown_extensions:
   - tables
@@ -75,10 +75,6 @@ nav:
       - dobby/setup.md
       - dobby/commands.md
       - dobby/privacy.md
-
-  - GetOnMyBot:
-      - getonmybot/development.md
-      - getonmybot/commands.md
 
   - Linux:
       - linux/server.md

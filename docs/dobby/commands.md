@@ -9,6 +9,13 @@
 `/blacklist` - Group of commands to blacklist users.     
 `/immune`    - Group of commands to set roles as immune. 
 
+## Baddomain
+
+`/baddomain punish` - Ban user for using a bad domain.  
+`/baddomain delete` - Delete bad domain in chat.        
+`/baddomain log` - Log bad domain used in chat.         
+`/baddomain check` - Checks the bad domain api.         
+
 ### Moderation
 
 `/hackban`  - Ban a user id from the server.                    
