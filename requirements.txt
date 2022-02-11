@@ -1,8 +1,12 @@
 mkdocs==1.2.3
+<<<<<<< HEAD
 mkdocs-material==8.1.11
+=======
+mkdocs-material==8.1.10
+>>>>>>> 3af452009e2dab00ff09b2d93d2b813eff4b72b0
 mkdocs-material-extensions==1.0.3
 mkdocs-macros-plugin==0.6.0
 markdown-link-attr-modifier==0.2.0
-mkdocs-git-revision-date-localized-plugin==0.11.1
+mkdocs-git-revision-date-localized-plugin==0.12.1
 PyYAML==6.0.0
 tqdm==4.62.3
