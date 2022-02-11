@@ -7,12 +7,8 @@
 
 ### Private
 
-- :fontawesome-brands-twitter:{ .twitter } – [@niklasgoetzen](https://twitter.com/niklasgoetzen)
 - :fontawesome-brands-facebook:{ .facebook } – [@niklasgoetzen](https://www.facebook.com/niklasgoetzen)
-- :fontawesome-brands-instagram:{ .instagram } – [@niklasgoetzen](https://www.instagram.com/niklasgoetzen)
-
-### Public
-
-- :fontawesome-brands-instagram:{ .instagram } – [@acciofotograf](https://www.instagram.com/acciofotograf)
-- :fontawesome-brands-twitch:{ .twitch } – [@c0mptuern1k](https://www.twitch.tv/c0mputern1k)
-- :fontawesome-brands-github:{ .github } – [@c0mptuern1k](https://github.com/c0mputern1k)
+- :fontawesome-brands-instagram:{ .instagram } – [@nigl93](https://www.instagram.com/nigl93)
+- :fontawesome-brands-github:{ .github } – [@nigl93](https://github.com/nigl93)
+- :fontawesome-brands-twitch:{ .twitch } – [@nigl93](https://www.twitch.tv/nigl93)
+- :fontawesome-brands-twitter:{ .twitter } – [@nigl93](https://twitter.com/nigl93)
