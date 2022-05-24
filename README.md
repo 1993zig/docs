@@ -1,3 +1,8 @@
-# DocNiks
+# Documentation
 
-A documentation/guide for me and my projects.
+## Development
+
+```bash
+npm install
+npm run docs:dev
+```
