@@ -1,9 +1,10 @@
 module.exports = {
   // site config
+  base: '/github-pages-vuepress/',
   lang: 'en-US',
   title: 'DocNiks',
   description: 'Projects und documentation',
-  dest: 'public',
+  dest: './docs',
 
   // theme and its config
   theme: '@vuepress/theme-default',
