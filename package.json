@@ -1,23 +1,20 @@
 {
-    "name": "ladocs",
-    "version": "1.0.0",
-    "description": "DocNks",
-    "main": "index.js",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1",
-      "docs:dev": "vuepress dev docs",
-      "docs:build": "vuepress build docs"
-    },
-    "repository": {
-      "type": "git",
-      "url": "https://github.dev/nigl93/docs"
-    },
-    "author": "",
-    "license": "ISC",
-    "devDependencies": {
-      "@vuepress/plugin-search": "^2.0.0-beta.36",
-      "@vuepress/plugin-shiki": "^2.0.0-beta.36",
-      "vuepress": "^2.0.0-beta.36"
-    }
+  "name": "github-pages-vuepress",
+  "version": "1.1.0",
+  "description": "Static website built with VuePress and deployed on Github Pages",
+  "scripts": {
+    "start": "vuepress dev",
+    "build": "vuepress build"
+  },
+  "repository": "https://github.com/scriptex/github-pages-vuepress",
+  "keywords": [
+    "VuePress",
+    "Gitlab",
+    "Pages"
+  ],
+  "author": "Atanas Atanasov <scriptex.bg@gmail.com> (https://atanas.info)",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "1.9.7"
   }
-  
+}
