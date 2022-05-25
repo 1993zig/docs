@@ -5,9 +5,9 @@ name: Build
 
 on:
     push:
-        branches: [master]
+        branches: [vuepress]
     pull_request:
-        branches: [master]
+        branches: [vuepress]
 
 jobs:
     build:
