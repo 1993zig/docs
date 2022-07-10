@@ -1,34 +1,92 @@
+const { searchPlugin } = require('@vuepress/plugin-search')
+const { shikiPlugin } = require('@vuepress/plugin-shiki')
+const { defaultTheme } = require('@vuepress/theme-default')
+const { docsearchPlugin } = require('@vuepress/plugin-docsearch')
+
 module.exports = {
   // site config
-  base: '/github-pages-vuepress/',
   lang: 'en-US',
-  title: 'DocNiks',
-  description: 'Projects und documentation',
-  dest: './docs',
+  title: 'Documentation',
+  description: 'detailed information',
+  dest: 'public',
 
   // theme and its config
-  theme: '@vuepress/theme-default',
-  themeConfig: {
-    logo: 'linux.png',
-    repo: 'https://github.dev/nigl93/docs',
+  theme: defaultTheme({
+    logo: 'logo.png',
+    repo: 'https://github.com/einsatzbereit/docs',
     docsBranch: 'main',
     docsDir: '/docs',
     editLinkPattern: ':repo/-/edit/:branch/:path',
     editLink: true,
     navbar: [
+      { text: 'Home', link: '/', },
+      { text: 'Reference', link: '/docs.md', },
       {
-        text: 'reference',
-        link: '/docs.md',
-      }
+        text: 'Dobby',
+        children: [
+          {
+            text: 'Commands',
+            link: '/dobby/commands.md',
+            activeMatch: '/dobby/commands*',
+          },
+          {
+            text: 'Privacy',
+            link: '/dobby/privacy.md',
+            activeMatch: '/dobby/privacy*',
+          },
+        ],
+      },
+      {
+        text: 'Linux',
+        children: [
+          {
+            text: 'Commands',
+            link: '/linux/commands.md',
+            activeMatch: '/linux/commands*',
+          },
+          {
+            text: 'Docker',
+            link: '/linux/docker.md',
+            activeMatch: '/linux/docker*',
+          },
+          {
+            text: 'Maintenance',
+            link: '/linux/maintenance.md',
+            activeMatch: '/linux/maintenance*',
+          },
+          {
+            text: 'Server',
+            link: '/linux/server.md',
+            activeMatch: '/linux/server*',
+          },
+        ],
+      },
+      {
+        text: 'Windows',
+        children: [
+          {
+            text: 'Commands',
+            link: '/windows/commands.md',
+            activeMatch: '/windows/commands*',
+          },
+          {
+            text: 'Tools',
+            link: '/windows/tools.md',
+            activeMatch: '/windows/tools*',
+          },
+        ],
+      },
     ],
   },
+  ),
   plugins: [
-    ['@vuepress/plugin-shiki', { theme: "github-dark" }],
-    ['@vuepress/plugin-search', {
+    shikiPlugin({ theme: 'github-dark' }),
+    searchPlugin({
       // exclude homepage
       isSearchable: (page) => page.path !== '/',
       // add tags to search index
       getExtraFields: (page) => page.frontmatter.tags ?? [],
-    }]
-  ]
+    }
+    ),
+  ],
 }
