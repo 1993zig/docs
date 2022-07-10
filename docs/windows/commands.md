@@ -2,6 +2,6 @@
 
 upgrade all intalled packages
 
-```ps
+```ps:no-line-numbers
 winget upgrade --all
 ```

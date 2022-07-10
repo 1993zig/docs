@@ -4,7 +4,7 @@
 
 ### Clear commits
 
-```shell
+```shell:no-line-numbers
 git checkout --orphan latest_branch
 
 git commit -am "commit message"
@@ -25,7 +25,7 @@ git push -f <branch>
 Needed packages `xargs`, `gh` and `jq`
 :::
 
-```shell
+```shell:no-line-numbers
 OWNER=<your user/org name>
 REPO=<repo name>
 

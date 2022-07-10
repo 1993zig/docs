@@ -6,7 +6,7 @@
 
 use
 
-```
+```:no-line-numbers
 VuePress 2 is out :tada: !
 ```
 
@@ -20,7 +20,7 @@ VuePress 2 is out :tada: !
 
 use
 
-```
+```:no-line-numbers
 ::: <type> [title]
 [content]
 :::
@@ -28,7 +28,7 @@ use
 
 like
 
-```
+```:no-line-numbers
 ::: tip
 This is a tip
 :::
@@ -48,7 +48,7 @@ types
 
 optinally add a title
 
-```
+```:no-line-numbers
 ::: tip myTitle
 This is a tip
 :::
@@ -66,7 +66,7 @@ to show code for ie different languages use code blocks
 
 use
 
-````md
+````md:no-line-numbers
 <CodeGroup>
   <CodeGroupItem title="YARN">
 
@@ -113,7 +113,7 @@ npm install
 
 use
 
-```
+```:no-line-numbers
 - VuePress - <Badge type="tip" text="v2" vertical="top" />
 - VuePress - <Badge type="warning" text="v2" vertical="middle" />
 - VuePress - <Badge type="danger" text="v2" vertical="bottom" />
@@ -131,7 +131,7 @@ to get
 
 [see](https://github.com/shikijs/shiki/blob/main/docs/languages.md)
 
-```
+```:no-line-numbers
 'abap'
 'actionscript-3'
 'ada'
