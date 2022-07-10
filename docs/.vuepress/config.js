@@ -26,6 +26,11 @@ module.exports = {
         text: 'Dobby',
         children: [
           {
+            text: 'Info',
+            link: '/dobby/index.md',
+            activeMatch: '/dobby/index*',
+          },
+          {
             text: 'Commands',
             link: '/dobby/commands.md',
             activeMatch: '/dobby/commands*',
