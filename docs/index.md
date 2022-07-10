@@ -1,3 +1,5 @@
-# DocNiks
+# Home
 
-[Reference](./docs.md)
+## Links
+
+* [Reference](./docs.md)
