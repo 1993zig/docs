@@ -38,6 +38,16 @@ module.exports = {
         ],
       },
       {
+        text: 'DevOps',
+        children: [
+          {
+            text: 'GitHub',
+            link: '/devops/github.md',
+            activeMatch: '/devops/github*',
+          }
+        ],
+      },
+      {
         text: 'Linux',
         children: [
           {
