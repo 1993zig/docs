@@ -6,12 +6,15 @@ const { docsearchPlugin } = require('@vuepress/plugin-docsearch')
 module.exports = {
   // site config
   lang: 'en-US',
-  title: 'Documentation',
+  title: 'DocNiks',
   description: 'detailed information',
+  head: [
+    ['link', { rel: 'icon', href: '/images/favicon.png' }]
+  ],
 
   // theme and its config
   theme: defaultTheme({
-    logo: 'logo.png',
+    logo: '/images/logo.png',
     repo: 'https://github.com/einsatzbereit/docs',
     docsBranch: 'main',
     docsDir: '/docs',
@@ -19,7 +22,6 @@ module.exports = {
     editLink: true,
     navbar: [
       { text: 'Home', link: '/', },
-      { text: 'Reference', link: '/docs.md', },
       {
         text: 'Dobby',
         children: [
@@ -83,7 +85,11 @@ module.exports = {
     searchPlugin({
       // exclude homepage
       isSearchable: (page) => page.path !== '/',
+      searchMaxSuggestions: 10
     }
     ),
+    docsearchPlugin({
+      // options
+    }),
   ],
 }
