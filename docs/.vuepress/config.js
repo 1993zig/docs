@@ -43,6 +43,21 @@ module.exports = {
         ],
       },
       {
+        text: 'RedBot',
+        children: [
+          {
+            text: 'Info',
+            link: '/redbot/index.md',
+            activeMatch: '/redbot/index.*',
+          },
+          {
+            text: 'Cogs',
+            link: '/redbot/cogs.md',
+            activeMatch: '/redbot/cogs*',
+          },
+        ],
+      },
+      {
         text: 'DevOps',
         children: [
           {
