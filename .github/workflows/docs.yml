@@ -1,11 +1,12 @@
-name: docs
+name: Build Docs
 
 on:
   push:
     branches: [master]
 
 jobs:
-  docs:
+  build-docs:
+    name: Build Docs on master
     runs-on: ubuntu-latest
 
     steps:
@@ -16,9 +17,8 @@ jobs:
         with:
           node-version: "18"
 
-      # cache node_modules
       - name: Cache dependencies
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         id: yarn-cache
         with:
           path: |
@@ -27,25 +27,18 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-yarn-
 
-      # install dependencies if the cache did not hit
       - name: Install dependencies
         if: steps.yarn-cache.outputs.cache-hit != 'true'
         run: yarn --frozen-lockfile
 
-      # run build script
       - name: Build VuePress site
         run: yarn docs:build
 
-      # please check out the docs of the workflow for more details
-      # @see https://github.com/crazy-max/ghaction-github-pages
       - name: Deploy to GitHub Pages
-        uses: crazy-max/ghaction-github-pages@v2
+        uses: crazy-max/ghaction-github-pages@v3
         with:
-          # deploy to gh-pages branch
           target_branch: gh-pages
-          # deploy the default output dir of VuePress
           build_dir: docs/.vuepress/dist/
           fqdn: docs.gtzn.de
         env:
-          # @see https://docs.github.com/en/actions/reference/authentication-in-a-workflow#about-the-github_token-secret
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
