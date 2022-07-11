@@ -3,6 +3,5 @@
 ## Update
 
 ```shell:no-line-numbers
-sudo -i
-apt upgrade && apt update -y
+sudo apt upgrade && apt update -y
 ```
