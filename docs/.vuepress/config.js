@@ -16,9 +16,9 @@ module.exports = {
   theme: defaultTheme({
     logo: '/images/logo.png',
     repo: 'https://github.com/einsatzbereit/docs',
-    docsBranch: 'main',
+    docsBranch: 'master',
     docsDir: '/docs',
-    editLinkPattern: ':repo/-/edit/:branch/:path',
+    editLinkPattern: ':repo/edit/:branch/:path',
     editLink: true,
     navbar: [
       { text: 'Home', link: '/', },
