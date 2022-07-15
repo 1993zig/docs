@@ -1,4 +1,3 @@
-const { searchPlugin } = require('@vuepress/plugin-search')
 const { shikiPlugin } = require('@vuepress/plugin-shiki')
 const { defaultTheme } = require('@vuepress/theme-default')
 const { docsearchPlugin } = require('@vuepress/plugin-docsearch')
@@ -27,8 +26,8 @@ module.exports = {
         children: [
           {
             text: 'Info',
-            link: '/dobby/index.md',
-            activeMatch: '/dobby/index*',
+            link: '/dobby/README.md',
+            activeMatch: '/dobby/README*',
           },
           {
             text: 'Commands',
@@ -47,8 +46,8 @@ module.exports = {
         children: [
           {
             text: 'Info',
-            link: '/redbot/index.md',
-            activeMatch: '/redbot/index.*',
+            link: '/redbot/README.md',
+            activeMatch: '/redbot/README.*',
           },
           {
             text: 'Cogs',
@@ -112,12 +111,6 @@ module.exports = {
   ),
   plugins: [
     shikiPlugin({ theme: 'github-dark' }),
-    searchPlugin({
-      // exclude homepage
-      isSearchable: (page) => page.path !== '/',
-      searchMaxSuggestions: 10
-    }
-    ),
     docsearchPlugin({
       // options
     }),
