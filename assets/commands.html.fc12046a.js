@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-9a2a3928","path":"/windows/commands.html","title":"Commands","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1658235179000,"contributors":[{"name":"einsatzbereit","email":"niklas.goetzen@gmail.com","commits":1}]},"filePathRelative":"windows/commands.md"}');export{e as data};

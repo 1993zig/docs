@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-138275dd","path":"/linux/commands.html","title":"Commands","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1658235179000,"contributors":[{"name":"einsatzbereit","email":"niklas.goetzen@gmail.com","commits":1}]},"filePathRelative":"linux/commands.md"}');export{e as data};

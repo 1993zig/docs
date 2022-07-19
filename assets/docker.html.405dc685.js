@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-a27e7776","path":"/linux/docker.html","title":"Docker","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1658235179000,"contributors":[{"name":"einsatzbereit","email":"niklas.goetzen@gmail.com","commits":1}]},"filePathRelative":"linux/docker.md"}');export{e as data};
