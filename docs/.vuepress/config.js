@@ -112,7 +112,8 @@ module.exports = {
   plugins: [
     shikiPlugin({ theme: 'github-dark' }),
     docsearchPlugin({
-      // options
+      indexName: "gtzn",
+      apiKey: "aae0678881ab48012d251bac02721cac",
     }),
   ],
 }
